@@ -9,8 +9,6 @@ import org.junit.runner.RunWith;
         glue = {"src/com.teststeps.TestSteps"},
         features = {"Feature"},
         dryRun = true,
-//        strict = true,
-//        tags = {},
         monochrome = true)
 
 class RunTest {
