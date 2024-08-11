@@ -146,7 +146,7 @@ public class ProductAddedStepsDef {
     @Then("in the upper right corner there is a basket icon with the number of products in the basket")
     public void in_the_upper_right_corner_there_is_a_basket_icon_with_the_number_of_products_in_the_basket() throws Exception {
         Thread.sleep(1000);
-        this.methods.compareValueOfElementsWithTestData(homePage.locatorBasketIcon, itemsInCart);
+        this.methods.compareValueOfElementsWithTestData(homePage.locatorCartHeader, homePage.locatorCart, homePage.locatorCartValue, itemsInCart);
     }
 
 

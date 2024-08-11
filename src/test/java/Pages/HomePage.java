@@ -1,5 +1,6 @@
 package Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
@@ -72,6 +73,10 @@ public class HomePage {
     public String locatorMonthlyPayment = "//*[@id=\"osAppInnerContainer\"]/main/section/section/div/span/div/div[2]/div/div/div/div[1]/div[2]/div/div/div[2]/div/div";
     public String locatorMonthlyPayment2 = "//*[@id=\"basketSummary\"]/div/div[2]/div[1]/section/div/div[1]/article/span/div";
     public String locatorBasketIcon = "//*[@id=\"__next\"]/div/div/header/div/div[2]/div/div/a[1]";
+
+    public String locatorCartHeader = "#__next header";
+    public String locatorCart = "[title='Koszyk']";
+    public String locatorCartValue = "div";
 
 
     private WebDriver driver;
